@@ -1,0 +1,65 @@
+.header .navbar{
+
+    background-color: transparent !important;
+}
+
+.intro{
+
+    width: 700px;
+    
+    }
+    
+    .capa{
+    
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+    
+        position: fixed;
+        top: 50%;
+        left:50%;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: rgba(0,0, 0, 0.5);
+    
+        z-index: -100;
+    
+      }
+    
+      video{
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+    
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    
+        z-index: -100;
+    
+        background-size: cover;
+      }
+    
+      .contenedor{
+    
+        display: flex;
+      }
+    
+    .text{
+    
+      padding-left: 30px;
+      width: 500px;
+      margin: 0%;
+      text-align: justify;
+    
+    }
+
+    .experiencia{
+      text-align: right;
+    }
+
+    .alineado{
+      text-align: right;
+    }
